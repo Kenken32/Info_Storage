@@ -9,8 +9,8 @@ selected_category = st.multiselect("Select category",options=unique_category)
 selected_storename = st.multiselect("Select store name",options=unique_storename)
 
 criteria1 = data['category'].isin(selected_category)
+criteria2 = data['store_name'].isin(selected_storename)
 
-criteria2 = data['store_name'] == 'Indomaret'
 criteria3 = data['price'] > 12000
 criteria4 = (data['price'] >= 12000) & (data['price'] <= 40000)
 criteria5 = (criteria1) & (criteria2) & (criteria3)
