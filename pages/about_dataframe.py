@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 
 data = pd.read_excel('./pages/source.xlsx')
+unique_category = data['category'].unique()
 
 criteria1 = data['category'] == 'non food'
 criteria2 = data['store_name'] == 'Indomaret'
