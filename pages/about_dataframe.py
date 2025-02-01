@@ -17,8 +17,6 @@ criteria3 = data['price'] <= price_point
 
 join_criteria = (criteria1) & (criteria2) & (criteria3)
 
-data = data[join_criteria]
-
 with st.container(border=True):
   data = data[join_criteria]
   st.dataframe(data,use_container_width=True)
