@@ -24,4 +24,3 @@ with st.container(border=True):
 st.image(product_picture)
   
   st.dataframe(data,use_container_width=True)
-st.dataframe(data)
