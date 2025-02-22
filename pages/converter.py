@@ -20,8 +20,7 @@ conversion_factors = {
           "month" : 1/24*7*4,
           "year" : 1/24*7*4*12,
           "decade" : 1/24*7*4*12*10,
-          "century" : 1/24*7*4*12*10*10}},
-  'speed':pass}
+          "century" : 1/24*7*4*12*10*10}}
 
 #category selection
 category_list = list(conversion_factors.keys())
