@@ -9,10 +9,10 @@ conversion_factors = {
               'dm':0.0001
               'hm':0.00001
               'km':0.000001},
-  'weight':"mg": 1,
+  'weight':{"mg": 1,
            "g": 0.01,
            "kg": 0.000001},
-  'time':"hour" : 1,
+  'time':{"hour" : 1,
          "minute" : 60,
          "second" : 60*60,
           "day" : 1/24,
