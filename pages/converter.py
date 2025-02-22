@@ -22,6 +22,10 @@ conversion_factors = {
           "decade" : 1/24*7*4*12*10,
           "century" : 1/24*7*4*12*10*10}}
 
+input_number = 1
+base_factor = conversion_factors["time"]["day"]
+conver_factor = conversion_factors["time"]["year"]
+
 col1,col2,col3,col4,col5 = st.columns(5)
 #category selection
 with col1:
@@ -43,5 +47,5 @@ with col4:
 
 with col5:
   st.write("output")
-  converted_value = input_number / base_factor * conver_factor
+  converted_value = input_number / base_factor * conversion_factor
   print(converted_value)
