@@ -27,7 +27,7 @@ col1,col2,col3,col4,col5 = st.columns(5)
 with col1:
   st.write("Category")
   category_list = list(conversion_factors.keys())
-  category = st.radio("Select Category",option=category_list)
+  category = st.radio("Select Category",options=category_list)
 
 with col2:
   st.write("Input")
