@@ -31,13 +31,14 @@ with col1:
 
 with col2:
   st.write("Input")
+  st.text_input("Enter Text")
 
 with col3:
   base_unit_list = list(conversion_factors[category].keys())
   base_unit = st.radio("From:",options=base_unit_list)
 
 with col4:
-  target_unit_list = list(conversion_factors[category].keys)
+  target_unit_list = list(conversion_factors[category].keys())
   target_unit = st.radio("To:",options=target_unit)
 
 with col5:
