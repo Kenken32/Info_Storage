@@ -34,7 +34,7 @@ with col2:
 
 with col3:
   base_unit_list = list(conversion_factors[category].keys())
-  base_unit = st.radio("From:",option=base_unit_list))
+  base_unit = st.radio("From:",option=base_unit_list)
 
 with col4:
   target_unit_list = list(conversion_factors[category].keys)
