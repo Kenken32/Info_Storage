@@ -6,8 +6,8 @@ conversion_factors = {
               'cm':0.1,
               'dcm':0.01,
               'm':0.001,
-              'dm':0.0001
-              'hm':0.00001
+              'dm':0.0001,
+              'hm':0.00001,
               'km':0.000001},
   'weight':{"mg": 1,
            "g": 0.01,
@@ -22,8 +22,23 @@ conversion_factors = {
           "decade" : 1/24*7*4*12*10,
           "century" : 1/24*7*4*12*10*10}}
 
+col1,col2,col3,col4,col5 = st.columns(5)
 #category selection
-category_list = list(conversion_factors.keys())
-category = st.radio("Select Category",option=category_list)
-base_unit_list = list(conversion_factors[category].keys())
-target_unit_list = list(conversion_factors[category].keys())
+with col1:
+  st.write("Category")
+  category_list = list(conversion_factors.keys())
+  category = st.radio("Select Category",option=category_list)
+
+with col2:
+  st.write("Input")
+
+with col3:
+  base_unit_list = list(conversion_factors[category].keys())
+  base_unit = st.radio("From:",option=base_unit_list))
+
+with col4:
+  target_unit_list = list(conversion_factors[category].keys)
+  target_unit = st.radio("To:",options=target_unit)
+
+with col5:
+  st.write("output")
