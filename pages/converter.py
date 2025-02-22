@@ -47,5 +47,5 @@ with col4:
 
 with col5:
   st.write("output")
-  converted_value = input_number / base_factor * conversion_factor
+  converted_value = input_number / base_factor * conver_factor
   print(converted_value)
