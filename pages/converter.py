@@ -20,11 +20,19 @@ conversion_factors = {
           "month" : 1/24*7*4,
           "year" : 1/24*7*4*12,
           "decade" : 1/24*7*4*12*10,
-          "century" : 1/24*7*4*12*10*10}}
+          "century" : 1/24*7*4*12*10*10},
+    "calories" : {"fries" : 319,
+                  "donut" : 190,
+                  "burger" : 290,
+                  "ice cream" : 207,
+                  "apple" : 52.1,
+                  "banana" : 88.1,
+                  "cabbage" : 24.6,
+                  "coke" : 139}}
 
 input_number = 1
-base_factor = conversion_factors["category"][""]
-conver_factor = conversion_factors["category"][""]
+base_factor = conversion_factors["category"]["key"]
+conver_factor = conversion_factors["category"]["key"]
 
 col1,col2,col3,col4,col5 = st.columns(5)
 #category selection
