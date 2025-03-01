@@ -38,7 +38,7 @@ with col1:
   category = st.radio("Select Category",options=category_list)
 
 with col2:
-  st.write("Input")
+  base_number = st.write("Input")
   input_number = st.number_input("Enter Number")
 
 with col3:
