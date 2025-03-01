@@ -39,7 +39,7 @@ conversion_factors = {"distance" :{"mm":1,
 #print(conversion_factors["m"])
 
 input_number = 1
-base_factor = conversion_factors["category"]["key"]
+base_factor = conversion_factors["time"]["key"]
 conver_factor = conversion_factors["category"]["key"]
 
 converted_value = input_number / base_factor * conver_factor
