@@ -31,8 +31,8 @@ conversion_factors = {
                   "coke" : 139}}
 
 input_number = 1
-base_factor = conversion_factors["category"]["key"]
-conver_factor = conversion_factors["category"]["key"]
+base_factor = conversion_factors["category"].keys()
+conver_factor = conversion_factors["category"].keys()
 
 col1,col2,col3,col4,col5 = st.columns(5)
 #category selection
