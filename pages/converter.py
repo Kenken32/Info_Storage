@@ -39,7 +39,7 @@ with col1:
 
 with col2:
   st.write("Input")
-  st.number_input("Enter Number")
+  input_number = st.number_input("Enter Number")
 
 with col3:
   base_unit_list = list(conversion_factors[category].keys())
