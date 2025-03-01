@@ -30,10 +30,6 @@ conversion_factors = {
                   "cabbage" : 24.6,
                   "coke" : 139}}
 
-input_number = 1
-base_factor = conversion_factors[category].keys()
-conver_factor = conversion_factors[category].keys()
-
 col1,col2,col3,col4,col5 = st.columns(5)
 #category selection
 with col1:
