@@ -19,7 +19,15 @@ conversion_factors = {"distance" :{"mm":1,
                                 "month" : 1/24*7*4,
                                 "year" : 1/24*7*4*12,
                                 "decade" : 1/24*7*4*12*10,
-                                "century" : 1/24*7*4*12*10*10}}
+                                "century" : 1/24*7*4*12*10*10},
+                       "calories" : {"fries" : 319,
+                                     "donut" : 190,
+                                     "burger" : 290,
+                                     "ice cream" : 207,
+                                     "apple" : 52.1,
+                                     "banana" : 88.1,
+                                     "cabbage" : 24.6,
+                                     "coke" : 139}}
 
 
 
@@ -31,8 +39,8 @@ conversion_factors = {"distance" :{"mm":1,
 #print(conversion_factors["m"])
 
 input_number = 1
-base_factor = conversion_factors["time"]["day"]
-conver_factor = conversion_factors["time"]["year"]
+base_factor = conversion_factors["category"]["key"]
+conver_factor = conversion_factors["category"]["key"]
 
 converted_value = input_number / base_factor * conver_factor
 
