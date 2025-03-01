@@ -19,10 +19,8 @@ conversion_factors = {"distance" :{"mm":1,
                                 "month" : 1/24*7*4,
                                 "year" : 1/24*7*4*12,
                                 "decade" : 1/24*7*4*12*10,
-                                "century" : 1/24*7*4*12*10*10},
-                       "speed" : {"cm/min" : {distance}.key(cm)1*60,
-                                  "cm/h" : 1*60*60},
-                                  "m/s" : 1/100}}
+                                "century" : 1/24*7*4*12*10*10}}
+
 
 
         
