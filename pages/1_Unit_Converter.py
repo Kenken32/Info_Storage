@@ -13,7 +13,7 @@ conversion_factors = {
             "Kg":1,
             "Ton":1/1000,
             "Adult person":1/70,
-            "A teenager':1/40,
+            "A teenager":1/40,
             "Cat":1/4.5,
             "Mouse":1/0.030,
             "Dog":1/27,
