@@ -68,4 +68,4 @@ with col4:
 with col5:
   st.write("output")
   converted_value = input_number / base_cf * target_cf
-  st.write(converted_value)
+  st.write(f'The {category} of {input_value} {base_unit} equals to {output_value:.2f} {target_unit}')
