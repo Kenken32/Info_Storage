@@ -58,12 +58,14 @@ with col2:
 with col3:
   base_unit_list = list(conversion_factors[category].keys())
   base_unit = st.radio("From:",options=base_unit_list)
+  base_cf = conversion_factors[category][base_unit]
 
 with col4:
   target_unit_list = list(conversion_factors[category].keys())
   target_unit = st.radio("To:",options=target_unit_list)
+  target_cf = conversion_factors[category][target_unit]
 
 with col5:
   st.write("output")
-  converted_value = input_number / base_factor * conver_factor
+  converted_value = input_number / base_cf * target_cf
   print(converted_value)
