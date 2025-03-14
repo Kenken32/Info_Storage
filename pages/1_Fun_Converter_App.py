@@ -11,6 +11,7 @@ conversion_factors = {
               'km':0.000001},
   'weight':{"gr":1/0.001,
             "Kg":1,
+            "7-Year-Old kid" : 1/22,
             "Ton":1/1000,
             "Adult person":1/70,
             "A teenager":1/40,
